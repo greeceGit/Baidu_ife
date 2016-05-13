@@ -1,0 +1,206 @@
+<style media="screen">
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "黑体";
+    }
+
+    body {
+        background-color: rgb(222, 222, 222);
+    }
+
+    .top {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(51, 51, 51);
+        position: absolute;
+        top: 0;
+    }
+
+    .main1 {
+        background-color: rgb(222, 222, 222);
+        margin-top: 80px;
+    }
+
+    .p1 {
+        width: 100px;
+        height: 80px;
+        margin: -10px 10px;
+    }
+
+    .z1 {
+        text-align: center;
+    }
+
+    .k1 {
+        width: 120px;
+        height: 130px;
+        border: 1px solid rgb(204, 200, 191);
+        ;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .sub1 {
+        margin: 80px 400px 20px 20px;
+    }
+
+    .sub2 {
+        background-color: white;
+        width: 320px;
+        height: 450px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        padding: 20px 20px;
+        border-right: 3px solid gray;
+        border-bottom: 3px solid gray;
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4 {
+        background-color: white;
+        margin: 20px 0;
+        padding: 20px 20px;
+        border-right: 3px solid gray;
+        border-bottom: 3px solid gray;
+    }
+
+    h2 {
+        line-height: 2;
+    }
+
+    h4 {
+        color: rgb(154, 157, 177);
+    }
+
+    h5 {
+        line-height: 0.5;
+        color: rgb(204, 200, 191);
+    }
+
+    p {
+        text-indent: 2em;
+        line-height: 2;
+        font-size: 15px;
+    }
+
+    img {
+        padding: 10px 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    ol {
+        margin: 10px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 14px;
+        text-align: left;
+        border: 1px solid rgb(201, 201, 201);
+    }
+
+    thead {
+        background-color: rgb(51, 51, 51);
+    }
+
+    th {
+        color: white;
+    }
+
+    tfoot {
+        background-color: rgb(201, 201, 201);
+    }
+
+    .b1 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    label {
+        text-align: right;
+        float: left;
+        width: 100px;
+        margin: 0px 15px;
+    }
+
+    .n1 {
+        font-size: 12px;
+        margin-left: 130px;
+        font-weight: normal;
+    }
+
+    .button {
+        width: 290px;
+        height: 40px;
+        background-color: rgb(27, 86, 200);
+        display: inline-block;
+        padding: 5px 10px 6px;
+        color: #fff;
+        text-decoration: none;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+        text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+        position: relative;
+        cursor: pointer
+    }
+
+    .r1,
+    .ch1 {
+        display: inline-block;
+        margin: 0 1px;
+    }
+
+    .sub2>h3 {
+        color: black;
+        line-height: 2;
+        text-indent: 0.6em;
+        border-left: 5px solid rgb(201, 201, 201);
+    }
+
+    .top>img {
+        float: left;
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+
+    .top>ul>li a {
+
+        float: right;
+        color: white;
+        margin:20px 10px;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    .top>ul>li a:hover {
+        color: rgb(188, 178, 179);
+    }
+
+    .foot {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background-color: black;
+        color: white;
+        font-weight: normal;
+        font-size: 13px;
+        overflow: hidden;
+        text-align: center;
+    }
+</style>
